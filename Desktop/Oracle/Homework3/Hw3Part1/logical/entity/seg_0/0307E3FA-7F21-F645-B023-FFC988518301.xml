@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0307E3FA-7F21-F645-B023-FFC988518301" name="Coach">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 22:35:47 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="first_name" id="49F2EC18-E143-D438-8C39-BD9114DC6E5B">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:13:31 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="1907045F-7A01-4C23-DBB5-605595008034">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:13:49 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_line_1" id="0B156EA2-0C35-3BAF-A72A-BF565C8EB103">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:14:04 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_line_2" id="05C19D11-15B3-8A0C-F8C4-D477BD360D4F">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:14:25 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="18892475-A6D6-EF56-1DDA-CA10CB5AB00E">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:14:34 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="8B591E6B-A38A-827C-31E3-113DE654923C">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:14:48 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>48BD6102-0502-5CBD-71D1-A0663AA17238</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip_code" id="9FD7F0B5-9044-CFF9-64DD-2B37100EDCB5">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:14:55 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>968E5C27-4777-099C-67DC-E9E011ABA0FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_no" id="097D5843-5985-63C8-4A5B-3F8345400FD4">
+<createdBy>hbixler</createdBy>
+<createdTime>2024-03-02 23:15:00 UTC</createdTime>
+<ownerDesignName>Hw3Part1</ownerDesignName>
+<engineerTo>
+<item key="6FACBD9B-0478-490D-95A1-F4618703A420" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D7F16E8E-03F7-0457-254B-F60824809E26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
