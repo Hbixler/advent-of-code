@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hw3Part1" id="8099521D-71C4-A005-CB39-7B6C9B37FFC6" version="3.5">
-<createdBy>hbixler</createdBy>
-<createdTime>2024-03-02 22:23:42 UTC</createdTime>
-<ownerDesignName>Hw3Part1</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>8099521D-71C4-A005-CB39-7B6C9B37FFC6</designId>
-</OSDM_Design>
